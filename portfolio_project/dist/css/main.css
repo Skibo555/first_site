@@ -392,13 +392,20 @@ body {
 @media (max-width: 600px) {
   #another {
     font-size: 10px; }
+    #another img {
+      padding-top: 10px;
+      padding-left: 0;
+      width: 40px;
+      height: 50px; }
     #another #navbar ul li {
       padding: 20px 5px 5px 5px; }
-    #another .container .navbar-container ul li {
-      padding: 3px; }
-      #another .container .navbar-container ul li a {
-        font-size: 11px;
-        text-transform: capitalize; }
+    #another .container .navbar-container ul {
+      padding-top: 15px; }
+      #another .container .navbar-container ul li {
+        padding: 3px; }
+        #another .container .navbar-container ul li a {
+          font-size: 11px;
+          text-transform: capitalize; }
   #contact h2 {
     font-size: 30px; }
   #contact .form-field {
@@ -456,8 +463,13 @@ body {
       font-size: 20px; }
     #header .showcase-hero p {
       font-size: 13px; }
+    #header .container .navbar-container #logo img {
+      padding-top: 10px;
+      padding-left: 0;
+      width: 40px;
+      height: 50px; }
     #header .container .navbar-container #navbar ul li {
-      padding: 20px 5px 5px 5px; }
+      padding: 15px 5px 5px 5px; }
     #header .container .navbar-container ul li a {
       padding-left: 5px;
       font-size: 11px;
