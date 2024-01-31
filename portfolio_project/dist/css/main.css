@@ -389,7 +389,7 @@ body {
     .socials .fab:hover {
       color: #fbbc0d; }
 
-@media (max-width: 680px) {
+@media (max-width: 600px) {
   #another {
     font-size: 10px; }
     #another .container .navbar-container ul li {
