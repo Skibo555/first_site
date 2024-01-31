@@ -438,8 +438,11 @@ body {
   #icons img {
     width: 60%;
     display: block; }
-  .testimonials .container #div-content p {
-    font-size: 20px; }
+  .testimonials .container {
+    padding: 0 10px;
+    margin: 0 10px; }
+    .testimonials .container #div-content p {
+      font-size: 20px; }
   .container .grid-div {
     grid-template-columns: 1fr; }
     .container .grid-div .the-div-with-img img {
@@ -463,14 +466,17 @@ body {
       font-size: 20px; }
     #header .showcase-hero p {
       font-size: 13px; }
-    #header .container .navbar-container #logo img {
-      padding-top: 10px;
-      padding-left: 0;
-      width: 40px;
-      height: 50px; }
-    #header .container .navbar-container #navbar ul li {
-      padding: 15px 5px 5px 5px; }
-    #header .container .navbar-container ul li a {
-      padding-left: 5px;
-      font-size: 11px;
-      text-transform: capitalize; } }
+    #header .container {
+      padding: 0 10px;
+      margin: 0 10px; }
+      #header .container .navbar-container #logo img {
+        padding-top: 10px;
+        padding-left: 0;
+        width: 40px;
+        height: 50px; }
+      #header .container .navbar-container #navbar ul li {
+        padding: 15px 5px 5px 5px; }
+      #header .container .navbar-container ul li a {
+        padding-left: 5px;
+        font-size: 11px;
+        text-transform: capitalize; } }
