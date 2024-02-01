@@ -99,8 +99,18 @@ body {
   padding-top: 30vh;
   text-align: center; }
   #header .showcase-hero h1 {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 0.5rem; }
+  #header .showcase-hero h2 {
+    color: yellow; }
+  #header .showcase-hero h3 {
+    color: green; }
+  #header .showcase-hero span {
+    color: aqua; }
+  #header .showcase-hero h3 span #billioniare {
+    color: #ccc; }
+  #header .showcase-hero p {
+    display: none; }
   #header .showcase-hero h1,
   #header .showcase-hero p {
     color: #fff; }
